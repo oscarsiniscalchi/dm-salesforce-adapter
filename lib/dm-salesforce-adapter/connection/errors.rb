@@ -11,7 +11,7 @@ class SalesforceAdapter::Connection
     class SOAPError      < Error
       def initialize(message, result)
         @result = result
-        super("#{message}: #{result_message}")
+        super("#{message}: #{result.inspect}")
       end
 
       def records
