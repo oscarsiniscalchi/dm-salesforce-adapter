@@ -71,7 +71,7 @@ class SalesforceAdapter
           res = driver.queryMore(:queryLocator => res.queryLocator).result
           records += res.records
         end
-        res.records = records 
+        res.records = records
         res
       end
     rescue SOAP::FaultError => e
@@ -92,7 +92,7 @@ class SalesforceAdapter
 
     def metadata(sf_object_name)
       with_reconnection do
-        @metadata[sf_object_name] ||= driver.describeSObject(SalesforceAPI::DescribeSObject.new(sf_object_name)).result
+        driver.describeSObject(SalesforceAPI::DescribeSObject.new(sf_object_name)).result
       end
     end
 
