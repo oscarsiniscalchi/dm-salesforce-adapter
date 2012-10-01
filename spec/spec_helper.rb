@@ -13,12 +13,12 @@ require 'spec/fixtures/contact'
 
 # Default config - needs to be overridden
 sfconfig = {
-    :adapter  => 'salesforce',
-    :username => 'api-user@example.org',
-    :password => 'passwordAPIKEY',
-    :path     => root + "/config/salesforce.wsdl", # /path/to/your/salesforce.wsdl
-    :apidir   => ENV['SALESFORCE_DIR'] || root + "/tmp/soap", # /path/to/cache/classfiles
-    :host     => '',
+    'adapter'  => 'salesforce',
+    'username' => 'api-user@example.org',
+    'password' => 'passwordAPIKEY',
+    'path'     => root + "/config/salesforce.wsdl", # /path/to/your/salesforce.wsdl
+    'apidir'   => ENV['SALESFORCE_DIR'] || root + "/tmp/soap", # /path/to/cache/classfiles
+    'host'     => '',
 }
 
 # Override with database.yml, if present.
