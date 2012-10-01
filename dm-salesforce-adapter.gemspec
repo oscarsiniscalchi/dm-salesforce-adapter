@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [ "README.markdown", "LICENSE" ]
   s.summary          = "A DataMapper 1.x adapter to the Salesforce API"
   s.description      = s.summary
-  s.authors          = [ "Jordan Ritter", "Tim Carey-Smith", "Andy Delcambre", "Yehuda Katz" ]
+  s.authors          = [ "Jordan Ritter", "Frederic Jean", "Tim Carey-Smith", "Andy Delcambre", "Yehuda Katz" ]
   s.email            = "jpr5@serv.io"
   s.homepage         = "http://github.com/cloudcrowd/dm-salesforce-adapter"
 

@@ -119,6 +119,7 @@ Special Thanks to those who helped
 * Jordan Ritter
 * Martin Emde
 * Jason Snell
+* Frederic Jean
 
 [setup]: http://img.skitch.com/20090204-gaxdfxbi1emfita5dax48ids4m.jpg "Click on Setup"
 [getwsdl]: http://img.skitch.com/20090204-nhurnuxwf5g3ufnjk2xkfjc5n4.jpg "Expand and Save"
